@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Talk</string>
+    <string name="button_send">发送</string>
+    <string name="action_settings">设置</string>
+    <string name="phone_number">手机号码:</string>
+    <string name="device_id">设备id:</string>
+</resources>

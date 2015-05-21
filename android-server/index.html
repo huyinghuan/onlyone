@@ -1,0 +1,15 @@
+<html>
+<head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io("http://localhost:3000/chat");
+      socket.emit("login", "client-IMSI", "client-device_id");
+      socket.on('message', function(){
+          console.log("messsage", arguments);
+      })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
